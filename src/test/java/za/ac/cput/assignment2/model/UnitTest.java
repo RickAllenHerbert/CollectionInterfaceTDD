@@ -154,9 +154,8 @@ class UnitTest {
     void testRemoveFromList() {
         unitList.remove(1);
 
-        for(int i = 0; i < unitList.size(); i++) {
-            System.out.println(unitList);
-        }
+        System.out.println(unitList);
+
         assertTrue(unitList.size()==1);
 
     }
